@@ -127,7 +127,7 @@ The 3 comparator outputs (`C1 C2 C3`) form a **thermometer code** — bits turn 
 The thermometer code is compressed into 2-bit binary using combinational logic:
 
 <p align="center">
-  <img width="509" height="368" alt="image" src="https://github.com/user-attachments/assets/3fe5a572-9cd6-4098-8133-0c0479e47fc0" />
+ <img width="375" height="254" alt="image" src="https://github.com/user-attachments/assets/fd03d239-177e-4e64-96e2-adf6360ce973" />
 
 </p>
 
@@ -148,7 +148,8 @@ Q0 (LSB) = C1 + (¬C2 · C3)
 **Gate-level realization:**
 
 <p align="center">
-  <img src="images/06_encoder_gate_logic.png" alt="Priority Encoder Gate-Level Logic" width="700">
+  <img width="559" height="240" alt="Screenshot 2026-07-04 091254" src="https://github.com/user-attachments/assets/f0d558f2-7257-4544-88f0-a752db2191a9" />
+
 </p>
 
 | Gate | Inputs | Expression | Role |
